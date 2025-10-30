@@ -4,7 +4,7 @@ void main() {
   runApp(SplashScreen());
 }
 
-class SplashScreen extends StatefulWidget {
+class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
