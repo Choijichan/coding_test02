@@ -5,8 +5,6 @@ void main() {
 }
 
 class SplashScreen extends StatefulWidget {
-  const SplashScreen({Key? key}) : super(key: key);
-  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
