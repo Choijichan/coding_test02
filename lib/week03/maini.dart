@@ -11,8 +11,8 @@ class SplashScreen extends StatefulWidget {
       home: Scaffold(
         body: Center(
           child: Text("안녕하세요")
-        )
-      )
-    )
+        ),
+      ),
+    );
   }
 }
