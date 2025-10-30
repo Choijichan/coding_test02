@@ -10,7 +10,7 @@ class SplashScreen extends StatefulWidget {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('')
+          child: Text("안녕하세요")
         )
       )
     )
