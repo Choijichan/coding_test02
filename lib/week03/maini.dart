@@ -5,10 +5,6 @@ void main() {
 }
 
 class HomeScreen extends StatelessWidget {
-  const SplashScreen({Key? key}) : super(key: key);
-
-  @override
-  State<SplashScreen> createState() => _
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
