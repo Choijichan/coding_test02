@@ -4,4 +4,15 @@ void main() {
   runApp(SplashScreen());
 }
 
-class SplashScreen extends State
+class SplashScreen extends StatefulWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Text('')
+        )
+      )
+    )
+  }
+}
